@@ -11,7 +11,8 @@ class Evaluate:
         self.model_path = Path('./model/EncoderModel')
         self._dataset_path = Path('./dataset')
         self.embeddings_path = self._dataset_path / 'verse_embeddings.pkl'
-        self.bible_path = self._dataset_path / 'kjv_bible.csv'
+        #self.bible_path = self._dataset_path / 'kjv_bible.csv'
+        self.bible_path = self._dataset_path / 'bsb.csv'
 
         try:
             self._get_bible()
