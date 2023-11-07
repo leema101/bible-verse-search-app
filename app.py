@@ -41,10 +41,10 @@ if len(text_input) != 0 or submitted:
     for ver, ref in zip(verses,references):
         with st.container():
             md = f"""
-            ##### {ver}
-            {ref} https://www.esv.org/verses/{ref.replace(" ","%20")}/  
+            ### {ver}
+            [{ref}](https://www.esv.org/verses/{ref.replace(" ","%20")})/  
             ___
             """
-            st.markdown(md)
+            st.markdown(md, unsafe_allow_html=True)
 
 st.caption('Thanks and credit to [@shreydan](https://github.com/shreydan)')
