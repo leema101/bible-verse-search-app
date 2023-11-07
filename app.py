@@ -38,12 +38,13 @@ if len(text_input) != 0 or submitted:
 
     st.markdown('Verses found ...\n___')
     #[{ref}](https://www.esv.org/verses/{ref.replace(" ","%20")})/  
+    #{ref}https://www.esv.org/verses/{ref.replace(" ","%20")}/
  
     for ver, ref in zip(verses,references):
         with st.container():
             md = f"""
             ### {ver}
-            {ref}https://www.esv.org/verses/{ref.replace(" ","%20")}/  
+            [{ref}](https://www.esv.org/verses/{ref.replace(" ","%20")}/)   
             ___
             """
             st.markdown(md, unsafe_allow_html=True)
