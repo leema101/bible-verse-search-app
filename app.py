@@ -46,4 +46,4 @@ if len(text_input) != 0 or submitted:
             """
             st.markdown(md)
 
-st.markdown('Credit to [@shreydan](https://github.com/shreydan)')
+st.caption('Thanks and credit to [@shreydan](https://github.com/shreydan)')
