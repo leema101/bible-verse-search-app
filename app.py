@@ -10,7 +10,7 @@ evaluator = Evaluate()
 
 
 with st.container():
-    text_input:str = st.text_input(label='Search phrase / keywords',key='input')
+    text_input:str = st.text_input(label='Bible search phrase / keywords',key='input')
     text_input = text_input.strip()
     #st.caption('Examples: do not be afraid, bless the Lord oh my soul')
     num_responses = st.number_input(
@@ -35,7 +35,7 @@ if len(text_input) != 0 or submitted:
     references = response['reference']
     verses = response['verse']
 
-    st.markdown('#### here are the verses...\n___')
+    st.markdown('Verses found ...\n___')
 
     for ver, ref in zip(verses,references):
         with st.container():
