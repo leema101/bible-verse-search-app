@@ -1,6 +1,6 @@
 import streamlit as st
 from model import Evaluate
-import requests
+
 
 evaluator = Evaluate()
 
