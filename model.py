@@ -12,7 +12,7 @@ class Evaluate:
         self._dataset_path = Path('./dataset')
         self.embeddings_path = self._dataset_path / 'verse_embeddings.pkl'
         #self.bible_path = self._dataset_path / 'kjv_bible.csv'
-        self.bible_path = self._dataset_path / 'bsb.csv'
+        self.bible_path = self._dataset_path / 'bsb.csv' #https://berean.bible/downloads.htm
 
         try:
             self._get_bible()
