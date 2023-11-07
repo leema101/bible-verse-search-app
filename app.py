@@ -3,16 +3,16 @@ from model import Evaluate
 
 evaluator = Evaluate()
 
-st.title("Bible Verse Search")
-st.markdown('built by [@shreydan](https://github.com/shreydan)')
-st.markdown("### Praise the Lord.")
-st.markdown("##### Please type the text you recall from the verse to get references.")
+#st.title("Bible Verse Search")
+#st.markdown('built by [@shreydan](https://github.com/shreydan)')
+#st.markdown("### Praise the Lord.")
+#st.markdown("##### Please type the text you recall from the verse to get references.")
 
 
 with st.container():
-    text_input:str = st.text_input(label='type verse and submit',key='input')
+    text_input:str = st.text_input(label='Search phrase / keywords',key='input')
     text_input = text_input.strip()
-    st.caption('Examples: do not be afraid, bless the Lord oh my soul')
+    #st.caption('Examples: do not be afraid, bless the Lord oh my soul')
     num_responses = st.number_input(
         label='number of responses',
         min_value=10,
@@ -23,8 +23,8 @@ with st.container():
     num_responses = int(num_responses)
 
     submitted = st.button(
-        label='Search',
-        type='primary'
+        label='Search'
+        #,type='primary'
     )
 
 
@@ -41,7 +41,7 @@ if len(text_input) != 0 or submitted:
         with st.container():
             md = f"""
             ##### {ver}
-            {ref}
+            {ref} https://www.esv.org/verses/{ref.replace(" ","%20")}/  
             ___
             """
             st.markdown(md)
