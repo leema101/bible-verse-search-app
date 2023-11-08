@@ -49,4 +49,4 @@ if len(text_input) != 0 or submitted:
             """
             st.markdown(md, unsafe_allow_html=True)
 
-st.caption('With thanks to [@shreydan](https://github.com/shreydan)')
+
