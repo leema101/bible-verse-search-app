@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from pathlib import Path
-from openai import OpenAI
-import os
+#from openai import OpenAI
+#import os
 
 
 class Evaluate:
