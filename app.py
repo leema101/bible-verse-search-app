@@ -12,7 +12,7 @@ evaluator = Evaluate()
 
 
 
-print(callChatGPT("Jesus is the way"))
+
 
 with st.container():
     text_input:str = st.text_input(label='Bible search phrase / keywords',key='input')
@@ -20,10 +20,10 @@ with st.container():
     #st.caption('Examples: do not be afraid, bless the Lord oh my soul')
     num_responses = st.number_input(
         label='number of responses',
-        min_value=10,
+        min_value=5,
         max_value=500,
-        step=10,
-        value=25
+        step=5,
+        value=5
     )
     num_responses = int(num_responses)
 
@@ -32,7 +32,7 @@ with st.container():
         #,type='primary'
     )
 
-
+    
 
 
 if len(text_input) != 0 or submitted:
@@ -53,4 +53,4 @@ if len(text_input) != 0 or submitted:
             """
             st.markdown(md, unsafe_allow_html=True)
 
-
+    st.write(callChatGPT(text_input))
