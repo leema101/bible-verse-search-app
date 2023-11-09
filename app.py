@@ -1,4 +1,5 @@
 import streamlit as st
+
 from model import Evaluate
 
 
@@ -9,6 +10,9 @@ evaluator = Evaluate()
 #st.markdown("### Praise the Lord.")
 #st.markdown("##### Please type the text you recall from the verse to get references.")
 
+
+
+print(callChatGPT("Jesus is the way"))
 
 with st.container():
     text_input:str = st.text_input(label='Bible search phrase / keywords',key='input')
