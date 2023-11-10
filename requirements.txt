@@ -693,4 +693,4 @@ httpx==0.23.0 ; python_version >= "3.8" and python_version < "4.0" \
 anyio==3.5.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:b5fa16c5ff93fa1046f2eeb5bbff2dad4d3514d6cda61d02816dba34fa8c3c2e
 distro==1.7.0 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:99522ca3e365cac527b44bde033f64c6945d90eb9f769703caaec52b09bbd3ff
+    --hash=sha256:d596311d707e692c2160c37807f83e3820c5d539d5a83e87cfb6babd8ba3a06b
