@@ -643,8 +643,7 @@ transformers==4.23.1 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:51bf21775296945bb665f8669c44cbacc1c61a9964c3d8aa2030fd30f940427b \
     --hash=sha256:f91085a31634efee509bcb0588d95b57713dcb990e516ffbe7c9a1813be14552
 typing-extensions==4.5.0 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:1511434bb92bf8dd198c12b1cc812e800d4181cfcb867674e0f8279cc93087aa \
-    --hash=sha256:16fa4864408f655d35ec496218b85f79b3437c829e93320c7c9215ccfd92489e
+    --hash=sha256:fb33085c39dd998ac16d1431ebc293a8b3eedd00fd4a32de0ff79002c19511b4
 tzdata==2022.5 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:323161b22b7802fdc78f20ca5f6073639c64f1a7227c40cd3e19fd1d0ce6650a \
     --hash=sha256:e15b2b3005e2546108af42a0eb4ccab4d9e225e2dfbf4f77aad50c70a4b1f3ab
