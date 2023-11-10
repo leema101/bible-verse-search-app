@@ -46,8 +46,7 @@ if len(text_input) != 0 or submitted:
  
     for ver, ref in zip(verses,references):
         with st.container():
-            md = f"""
-            - [{ref}](https://www.esv.org/verses/{ref.replace(" ","%20")}/)   {ver} """
+            md = f"""- [{ref}](https://www.esv.org/verses/{ref.replace(" ","%20")}/)   {ver} """
             st.markdown(md, unsafe_allow_html=True)
 
     st.markdown('\n___GPT Verses ...\n')
