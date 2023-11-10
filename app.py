@@ -53,4 +53,4 @@ if len(text_input) != 0 or submitted:
             """
             st.markdown(md, unsafe_allow_html=True)
 
-    st.write(callChatGPT(text_input))
+    st.write(evaluator.callChatGPT(text_input))
