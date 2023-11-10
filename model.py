@@ -63,11 +63,11 @@ class Evaluate:
         client = OpenAI(api_key=api_key)
     
         completion = client.chat.completions.create(
-          model="gpt-3.5-turbo",
-          messages=[
-            {"role": "system", "content": "You are a smart Bible search tool. You provide five most appropriate Bible Verses using bullet points from the ESV Bible based on the user question or paraphrased verse. Don't provide intros, opinions or summaries"},
-            {"role": "user", "content": f"{query}"}
-          ]
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "You are a smart Bible search tool. You provide five most appropriate Bible Verses using bullet points from the ESV Bible based on the user question or paraphrased verse. Don't provide intros, opinions or summaries"},
+                {"role": "user", "content": f"{query}"}
+            ]
         )
         return(completion.choices[0].message.content)
 
