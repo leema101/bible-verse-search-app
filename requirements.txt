@@ -692,5 +692,5 @@ pydantic==1.9.0 ; python_version >= "3.8" and python_version < "4.0" \
 httpx==0.23.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:42974f577483e1e932c3cdc3cd2303e883cbfba17fe228b0f63589764d7b9c4b
 anyio==3.5.0 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:91dee416e570e92c64041bd18b900d1d6fa78dff7048769ce5ac5ddad004fbb5
+    --hash=sha256:b5fa16c5ff93fa1046f2eeb5bbff2dad4d3514d6cda61d02816dba34fa8c3c2e
     
