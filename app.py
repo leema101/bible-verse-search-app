@@ -40,7 +40,7 @@ if len(text_input) != 0 or submitted:
     references = response['reference']
     verses = response['verse']
 
-    st.markdown('\n___NLP Verses ...\n')
+    st.markdown('\n___\nNLP Verses ...\n')
     #[{ref}](https://www.esv.org/verses/{ref.replace(" ","%20")})/  
     #{ref}https://www.esv.org/verses/{ref.replace(" ","%20")}/
  
@@ -49,5 +49,5 @@ if len(text_input) != 0 or submitted:
             md = f"""- [{ref}](https://www.esv.org/verses/{ref.replace(" ","%20")}/)   {ver} """
             st.markdown(md, unsafe_allow_html=True)
 
-    st.markdown('\n___GPT Verses ...\n')
+    st.markdown('\n___\nGPT Verses ...\n')
     st.write(evaluator.callChatGPT(text_input))
