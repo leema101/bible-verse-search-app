@@ -688,4 +688,4 @@ zipp==3.10.0 ; python_version >= "3.8" and python_version < "4.0" \
 openai==1.2.2 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:e9238e506b8ee8fc00af5b656de7907986317d7cfcf581964ff6e54a449be727
 pydantic==1.9.0 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:bc3ddf669d234f4220e6e1c4d96b061abe0998185a8d7855c0126782b7abc8c1
+    --hash=sha256:4c68c3bc88dbda2a6805e9a142ce84782d3930f8fdd9655430d8576315ad97ce
