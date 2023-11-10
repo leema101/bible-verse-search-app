@@ -5,8 +5,7 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from pathlib import Path
 from openai import OpenAI
-import os
-
+import streamlit as st
 
 class Evaluate:
     def __init__(self):
