@@ -690,4 +690,4 @@ openai==1.2.2 ; python_version >= "3.8" and python_version < "4.0" \
 pydantic==1.9.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:4c68c3bc88dbda2a6805e9a142ce84782d3930f8fdd9655430d8576315ad97ce
 httpx==0.23.0 ; python_version >= "3.8" and python_version < "4.0" \
-    --hash=sha256:fec7d6cc5c27c578a391f7e87b9aa7d3d8fbcd034f6399f9f79b45bcc12a866a
+    --hash=sha256:42974f577483e1e932c3cdc3cd2303e883cbfba17fe228b0f63589764d7b9c4b
