@@ -58,7 +58,7 @@ class Evaluate:
         return response
 
     
-   def callChatGPT(query):
+    def callChatGPT(query):
         api_key = os.environ['OAIKEY']
         client = OpenAI(api_key=api_key)
     
