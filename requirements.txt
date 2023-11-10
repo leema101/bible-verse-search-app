@@ -694,3 +694,5 @@ anyio==3.5.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:b5fa16c5ff93fa1046f2eeb5bbff2dad4d3514d6cda61d02816dba34fa8c3c2e
 distro==1.7.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:d596311d707e692c2160c37807f83e3820c5d539d5a83e87cfb6babd8ba3a06b
+httpcore==0.15.0 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:1105b8b73c025f23ff7c36468e4432226cbb959176eab66864b8e31c4ee27fa6
