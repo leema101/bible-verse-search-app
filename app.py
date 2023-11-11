@@ -50,4 +50,6 @@ if len(text_input) != 0 or submitted:
             st.markdown(md, unsafe_allow_html=True)
 
     st.markdown('\n___\nGPT Verses ...\n')
-    st.write(evaluator.callChatGPT(text_input))
+    with st.spinner('Working ...'):
+        gpt = evaluator.callChatGPT(text_input)
+    st.write(gpt)
