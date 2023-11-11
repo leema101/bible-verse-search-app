@@ -59,6 +59,7 @@ class Evaluate:
     
     def callChatGPT(self,query):
         #api_key = os.environ['OAIKEY']
+        # Add your OPENAI API Key to Secrets in https://share.streamlit.io/
         api_key = st.secrets['OAIKEY']
         client = OpenAI(api_key=api_key)
     
