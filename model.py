@@ -66,7 +66,7 @@ class Evaluate:
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
-                {"role": "system", "content": "You are a smart Bible search tool. You provide five most appropriate Bible Verses using bullet points from the ESV Bible based on the user question or paraphrased verse. Don't provide intros, opinions or summaries"},
+                {"role": "system", "content": "You are a smart Bible search tool. You provide five most appropriate Bible Verses (sounds similar to the user query or relates to the user query) using numbered bullet points from the ESV Bible based on the user question or paraphrased verse. Don't provide intros, opinions or summaries"},
                 {"role": "user", "content": f"{query}"}
             ]
         )
